@@ -3,7 +3,7 @@ Rmd template that conveniently lets you build overviews of your data for collabo
 
 How to install in R:
 
-if (!requireNamespace("devtools")) install.packages("devtools")
+if (!requireNamespace("devtools")) install.packages("devtools") <br>
 devtools::install_github("MozzMuzz/rmd_templates")
 
 After installing, when you create a new R Markdown file, go to "From template" and select the desired option.
