@@ -1,0 +1,55 @@
+---
+title: "ENTER"
+author: "Moritz Müller"
+date: "optional"
+output:
+  html_document:
+    code_folding: hide
+    fig_captions: yes
+    highlight: haddock
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: yes
+      toc_depth: 3
+  pdf_document:
+    toc: yes
+---
+
+
+
+Last update: `r Sys.time()`
+
+
+```{r set-global-options, echo = FALSE}
+knitr::opts_chunk$set(eval = TRUE, 
+                      echo = TRUE, 
+                      message=FALSE,
+                      warning = FALSE,
+                      cache = FALSE,
+                      include = TRUE,
+                      collapse = FALSE,
+                      dependson = NULL,
+                      engine = "R", # Chunks will always have R code, unless noted
+                      error = TRUE,
+                      fig.path="Figures/",  # Set the figure options
+                      fig.align = "left",
+                      fig.width = 4,
+                      fig.height = 4)
+```
+
+
+```{r silent-packages, echo = FALSE, eval = TRUE, message=FALSE, include = FALSE}
+# import packages here, if they shall be seen on the script, remove silent-packages
+```
+
+
+```{r}
+source("XX.R")
+#or
+load("path/to/.RData")
+```
+
+
